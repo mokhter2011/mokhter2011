@@ -50,9 +50,9 @@
 *ParamCustomPageSize Orientation:  5 int 0 0
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
 
-*UIConstraints: *PrintQuality High *MediaType EMATTE
-*UIConstraints: *PrintQuality High *MediaType EPREMGLOSS
-*UIConstraints: *PrintQuality High *MediaType ENVELOPE
+*UIConstraints: *PrintQuality Draft *MediaType EMATTE
+*UIConstraints: *PrintQuality Draft *MediaType EPREMGLOSS
+*UIConstraints: *PrintQuality Draft *MediaType ENVELOPE
 *UIConstraints: *Color Grayscale *MediaType EPREMGLOSS
 *UIConstraints: *ReduceEnlarge Off *PageSize A3
 *UIConstraints: *ReduceEnlarge Off *PageSize A3+
@@ -90,6 +90,19 @@
 *ko.Translation MediaType/종류:""
 *zh.Translation MediaType/类型:""
 *zh_TW.Translation MediaType/種類:""
+*MediaType PLAIN/plain papers: "<</HWResolution[360 360]>>setpagedevice"
+*ja.MediaType PLAIN/plain papers:""
+*en.MediaType PLAIN/plain papers:""
+*nl.MediaType PLAIN/Gewoon papier:""
+*fr.MediaType PLAIN/Papier ordinaire:""
+*de.MediaType PLAIN/Normalpapier:""
+*it.MediaType PLAIN/carte comuni:""
+*pt.MediaType PLAIN/Papel Normal:""
+*es.MediaType PLAIN/Papel Normal:""
+*ru.MediaType PLAIN/Простая бумага:""
+*ko.MediaType PLAIN/일반 용지:""
+*zh.MediaType PLAIN/普通纸:""
+*zh_TW.MediaType PLAIN/plain papers:""
 *MediaType EMATTE/Epson Matte: "<</HWResolution[720 720]>>setpagedevice"
 *ja.MediaType EMATTE/Epson Matte:""
 *en.MediaType EMATTE/Epson Matte:""
@@ -147,19 +160,19 @@
 *ko.Translation PrintQuality/품질 옵션:""
 *zh.Translation PrintQuality/质量选项:""
 *zh_TW.Translation PrintQuality/品質選項:""
-*PrintQuality High/High: 
-*ja.PrintQuality High/High:""
-*en.PrintQuality High/High:""
-*nl.PrintQuality High/Concept:""
-*fr.PrintQuality High/Brouillon:""
-*de.PrintQuality High/Entwurf:""
-*it.PrintQuality High/Bozza:""
-*pt.PrintQuality High/Prova:""
-*es.PrintQuality High/Borrador:""
-*ru.PrintQuality High/Черновик:""
-*ko.PrintQuality High/잉크절약(Draft):""
-*zh.PrintQuality High/经济:""
-*zh_TW.PrintQuality High/草稿:""
+*PrintQuality Draft/Draft: 
+*ja.PrintQuality Draft/Draft:""
+*en.PrintQuality Draft/Draft:""
+*nl.PrintQuality Draft/Concept:""
+*fr.PrintQuality Draft/Brouillon:""
+*de.PrintQuality Draft/Entwurf:""
+*it.PrintQuality Draft/Bozza:""
+*pt.PrintQuality Draft/Prova:""
+*es.PrintQuality Draft/Borrador:""
+*ru.PrintQuality Draft/Черновик:""
+*ko.PrintQuality Draft/잉크절약(Draft):""
+*zh.PrintQuality Draft/经济:""
+*zh_TW.PrintQuality Draft/草稿:""
 *PrintQuality Standard/Standard: 
 *ja.PrintQuality Standard/Standard:""
 *en.PrintQuality Standard/Standard:""
