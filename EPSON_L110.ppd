@@ -50,9 +50,9 @@
 *ParamCustomPageSize Orientation:  5 int 0 0
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
 
-*UIConstraints: *PrintQuality Draft *MediaType EMATTE
-*UIConstraints: *PrintQuality Draft *MediaType EPREMGLOSS
-*UIConstraints: *PrintQuality Draft *MediaType ENVELOPE
+*UIConstraints: *PrintQuality High *MediaType EMATTE
+*UIConstraints: *PrintQuality High *MediaType EPREMGLOSS
+*UIConstraints: *PrintQuality High *MediaType ENVELOPE
 *UIConstraints: *Color Grayscale *MediaType EPREMGLOSS
 *UIConstraints: *ReduceEnlarge Off *PageSize A3
 *UIConstraints: *ReduceEnlarge Off *PageSize A3+
